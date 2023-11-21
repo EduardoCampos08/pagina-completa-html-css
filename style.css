@@ -1,0 +1,44 @@
+
+
+:root {
+    --principalColor-color: rgb(100,196,102);
+    --secundarioColor: rgb(151, 216, 152);
+  }
+
+  h2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secundarioColor);
+  }
+
+  form {
+    margin: 0 auto; /* Centramos el formulario */
+    width: 300px;   /* Sin ancho no podemos centrar el formulario */
+    background-color: white; /* Color blanco para el formulario */
+    padding: 2px; /* separamos los bordes del form del resto de elementos */
+    border-radius: 10px; /* Redondeamos los bordes del form */
+ }
+ 
+ input, textarea {
+     padding: 5px; /* Separamos la letra del interior (contenido) en los inputs de los bordes */
+     border: none;
+     border-bottom: 2px solid var(--secundarioColor);
+    }
+    button{
+        margin-top: 1em;
+    }
+  
+  .containerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.form{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
